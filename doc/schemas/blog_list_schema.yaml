@@ -1,0 +1,14 @@
+type: object
+properties:
+  id:
+    type: integer
+    default: 1
+  title:  
+    type: string
+    default: Blog title
+  created_by:
+    type: string
+    default: Creator 1
+  created_at:
+    type: string
+    default: 01/01/2023

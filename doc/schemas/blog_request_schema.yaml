@@ -1,0 +1,11 @@
+type: object
+properties:
+  title:  
+    type: string
+    default: Blog title
+  summary:
+    type: string
+    default: This is summary...
+  content:
+    type: string
+    default: This is very long content...

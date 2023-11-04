@@ -1,0 +1,21 @@
+p, admin, /api/auth/refresh, POST
+p, admin, /api/blogs, GET
+p, admin, /api/blogs, POST
+p, admin, /api/blogs/{id}, GET
+p, admin, /api/blogs/{id}, PUT
+p, admin, /api/blogs/{id}, DELETE
+
+p, creator, /api/auth/refresh, POST
+p, creator, /api/blogs, GET
+p, creator, /api/blogs, POST
+p, creator, /api/blogs/{id}, GET
+p, creator, /api/blogs/{id}, PUT
+
+p, subscriber, /api/auth/refresh, POST
+p, subscriber, /api/blogs, GET
+p, subscriber, /api/blogs/{id}, GET
+
+p, guest, /api/auth/login, POST
+p, guest, /api/auth/register, POST
+p, guest, /api/blogs, GET
+

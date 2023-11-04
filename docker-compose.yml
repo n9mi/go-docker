@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  web:
+    build: .  
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    command:
+      go run . -b 0.0.0.0
+  db:
+    image: postgres
+    ports:
+      - "5555:5432"
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+  swagger-ui:
+    image: swaggerapi/swagger-ui
+    ports:
+      - "80:8080"
+    volumes:
+      - ./doc:/usr/share/nginx/html/doc
+    environment:
+      API_URL: doc/openapi.yaml
+volumes:
+  postgres-db:    
+
+  
