@@ -2,10 +2,10 @@ package service
 
 import (
 	"github.com/go-playground/validator/v10"
-	"github.com/naomigrain/go-docker/exception"
-	"github.com/naomigrain/go-docker/model/domain"
-	"github.com/naomigrain/go-docker/model/web"
-	"github.com/naomigrain/go-docker/repository"
+	"github.com/n9mi/go-docker/exception"
+	"github.com/n9mi/go-docker/model/domain"
+	"github.com/n9mi/go-docker/model/web"
+	"github.com/n9mi/go-docker/repository"
 	"gorm.io/gorm"
 )
 

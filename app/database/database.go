@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/naomigrain/go-docker/config"
-	"github.com/naomigrain/go-docker/helper"
-	"github.com/naomigrain/go-docker/model/domain"
-	"github.com/naomigrain/go-docker/repository"
+	"github.com/n9mi/go-docker/config"
+	"github.com/n9mi/go-docker/helper"
+	"github.com/n9mi/go-docker/model/domain"
+	"github.com/n9mi/go-docker/repository"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

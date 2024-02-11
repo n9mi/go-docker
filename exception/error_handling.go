@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
-	"github.com/naomigrain/go-docker/model/web"
+	"github.com/n9mi/go-docker/model/web"
 )
 
 func CustomErrorHandler(err error, c echo.Context) {

@@ -4,7 +4,7 @@ import (
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/naomigrain/go-docker/exception"
+	"github.com/n9mi/go-docker/exception"
 	"gorm.io/gorm"
 )
 

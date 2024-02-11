@@ -4,10 +4,10 @@ import (
 	"github.com/casbin/casbin/v2"
 	"github.com/go-playground/validator/v10"
 	"github.com/joho/godotenv"
-	"github.com/naomigrain/go-docker/app/database"
-	"github.com/naomigrain/go-docker/app/middleware"
-	"github.com/naomigrain/go-docker/app/router"
-	"github.com/naomigrain/go-docker/config"
+	"github.com/n9mi/go-docker/app/database"
+	"github.com/n9mi/go-docker/app/middleware"
+	"github.com/n9mi/go-docker/app/router"
+	"github.com/n9mi/go-docker/config"
 )
 
 func main() {

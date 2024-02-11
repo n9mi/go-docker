@@ -3,9 +3,9 @@ package router
 import (
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
-	"github.com/naomigrain/go-docker/controller"
-	"github.com/naomigrain/go-docker/repository"
-	"github.com/naomigrain/go-docker/service"
+	"github.com/n9mi/go-docker/controller"
+	"github.com/n9mi/go-docker/repository"
+	"github.com/n9mi/go-docker/service"
 	"gorm.io/gorm"
 )
 

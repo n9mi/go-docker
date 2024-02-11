@@ -5,9 +5,9 @@ import (
 
 	"github.com/casbin/casbin/v2"
 	"github.com/labstack/echo/v4"
-	"github.com/naomigrain/go-docker/exception"
-	"github.com/naomigrain/go-docker/helper"
-	"github.com/naomigrain/go-docker/repository"
+	"github.com/n9mi/go-docker/exception"
+	"github.com/n9mi/go-docker/helper"
+	"github.com/n9mi/go-docker/repository"
 	"gorm.io/gorm"
 )
 

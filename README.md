@@ -10,7 +10,7 @@ Simple CRUD with role-based JWT authorization
 - github.com/casbin/casbin/v2
 
 ## **Database structure**
-![image](https://github.com/naomigrain/go-docker/assets/113373725/b2859737-9479-48ff-9708-c811bd21602a)
+![image](https://github.com/n9mi/go-docker/assets/113373725/b2859737-9479-48ff-9708-c811bd21602a)
 
 ## **Role**
 - Users can have more than one role

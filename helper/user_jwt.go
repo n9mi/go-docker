@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt"
-	"github.com/naomigrain/go-docker/exception"
-	"github.com/naomigrain/go-docker/model/web"
+	"github.com/n9mi/go-docker/exception"
+	"github.com/n9mi/go-docker/model/web"
 )
 
 func GenerateLoginToken(userEmail string, roleID uint) (web.Token, error) {

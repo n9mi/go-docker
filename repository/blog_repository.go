@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"github.com/naomigrain/go-docker/exception"
-	"github.com/naomigrain/go-docker/helper"
-	"github.com/naomigrain/go-docker/model/domain"
+	"github.com/n9mi/go-docker/exception"
+	"github.com/n9mi/go-docker/helper"
+	"github.com/n9mi/go-docker/model/domain"
 	"gorm.io/gorm"
 )
 
